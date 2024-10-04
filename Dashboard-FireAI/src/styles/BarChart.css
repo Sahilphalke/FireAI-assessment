@@ -1,0 +1,46 @@
+
+.bar-chart-container {
+    width: 60%;                 
+    max-width: 600px;            
+    margin: 30px auto;           
+    padding: 20px;               
+    background-color: #ffffff;   
+    border: 2px solid;           
+    border-radius: 2px;          
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.bar-chart-title {
+    text-align: center;          
+    font-size: 1.5rem;           
+    margin-bottom: 15px;         
+    color: #000000;              
+    font-family: serif;          
+}
+
+
+@media (max-width: 768px) {
+    .bar-chart-container {
+        width: 80%;              
+        padding: 15px;           
+    }
+
+    .bar-chart-title {
+        font-size: 1.3rem;       
+    }
+}
+
+
+@media (max-width: 480px) {
+    .bar-chart-container {
+        width: 100%;             
+        max-width: 100%;         
+        padding: 10px;           
+    }
+
+    .bar-chart-title {
+        font-size: 1.1rem;       
+        margin-bottom: 10px;     
+    }
+}

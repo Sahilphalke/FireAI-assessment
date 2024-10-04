@@ -1,0 +1,15 @@
+
+.homepage {
+    padding: 20px;
+    
+}
+
+.charts {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
